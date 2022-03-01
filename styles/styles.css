@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin:  0;
+    padding: 0;
+ }
+
+ .fundo{
+     background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(93,149,199,1) 50%);
+     height: 100vh;
+     color: white;
+     font-family: 'Righteous', cursive;
+     text-align:center;
+ }
+
+ .calculadora{
+     background-color:rgba(0, 0, 0.8) ;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 10px;
+     padding: 15px;
+     font-family: 'Righteous', cursive;
+ }
+
+ .autor{
+     text-align: center;
+     font-size: 20px;
+ }
+ 
+ .botao{
+     width: 50px;
+     height: 50px;
+     margin: 2px;
+     font-size: 25px;
+     cursor: pointer;
+     background-color: rgb(71, 68, 68);
+     border: none;
+     color: #fff;
+ }
+
+ .botao:hover{
+     background-color: rgb(22, 21, 21);
+ }
+
+.botaoigual{
+    width: 50px;
+    height: 106px;
+    margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(71, 68, 68);
+    border: none;
+    color: #fff;
+}
+
+.botaoigual:hover{
+    background-color: rgb(22, 21, 21);
+}
+
+.botaozero{
+    width: 106px;
+    height: 50px;
+    margin: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(71, 68, 68);
+    border: none;
+    color: #fff;
+}
+
+.botaozero:hover{
+    background-color: rgb(22, 21, 21);
+}
+
+#resultado{
+    background-color: white;
+    width: 205px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: right ;
+    padding: 5px;
+    color: black;
+}
